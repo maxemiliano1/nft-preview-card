@@ -78,6 +78,7 @@ body {
 
 .titulo:hover {
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .container-conteudo>p,
@@ -128,13 +129,14 @@ hr {
     margin-right: 15px;
 }
 
-.avatar a {
+.avatar span {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
     font-weight: 300;
     transition: 0.6s;
 }
 
-.avatar a:hover {
+.avatar span:hover {
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
